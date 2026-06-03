@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy:cloudflare": "bash scripts/deploy-cloudflare.sh"
   },
   "dependencies": {
     "jszip": "^3.10.1",
