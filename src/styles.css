@@ -242,7 +242,8 @@ button {
   display: flex;
   flex-direction: column;
   padding: 12px 14px;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   font-size: 13px;
 }
 
